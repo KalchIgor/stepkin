@@ -63,4 +63,23 @@ h1 {
    }
    .fon  {width: 1300px;
     height: 2000px;
-    background-image: url(../images/qq1.jpg); /* Путь к фоновому изображению */}
+    background-image: url(../images/qq1.jpg); /* Путь к фоновому изображению */
+}
+HTML CSSResult Skip Results Iframe
+EDIT ON
+img {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
