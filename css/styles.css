@@ -10,6 +10,7 @@ a {
    }
    .nav:hover , .nav:focus { color: aliceblue;
     background-color: blue;
+    transition-duration: 0.5s;
    }
    li {
     list-style-type: none; /* Убираем маркеры */
